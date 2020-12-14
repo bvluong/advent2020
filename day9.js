@@ -5,7 +5,7 @@ const isValidNum = (num, val) => {
             let sum = slicedInput.reduce((acc,num) => {
                 return parseInt(num) + acc;
             }, 0)
-            if (sum === val) {
+            if (sum === val) {a
                 console.log(slicedInput.sort((a,b)=> a-b))
                 console.log('answer')
             }
